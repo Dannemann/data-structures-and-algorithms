@@ -10,7 +10,7 @@ class Solution extends AbstractSolution {
 		String r =
 			((long) arr.get(0) + arr.get(1) + arr.get(2) + arr.get(3)) + " " +
 			((long) arr.get(1) + arr.get(2) + arr.get(3) + arr.get(4));
-		System.out.print(r);
+//		System.out.print(r);
 		return r;
 	}
 

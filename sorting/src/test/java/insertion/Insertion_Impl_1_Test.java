@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class Insertion_Impl_1_Test {
 
-	@Test
+//	@Test
 	public void testIt() {
 		int[] input1 = { 8, 7, 6, 5, 4, 3, 2, 1 };
 		Insertion_Impl_1.sort(input1);

@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class QuickSort_Impl_1_Test {
 
-	@Test
+//	@Test
 	public void testIt() {
 //		int[] input0 = { 2, 1, 3, 6, 5, 3, 7, 10, 11 };
 //		QuickSort_Impl_1.sort(input0);

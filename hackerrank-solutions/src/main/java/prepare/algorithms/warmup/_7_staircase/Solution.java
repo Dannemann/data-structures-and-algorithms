@@ -7,7 +7,7 @@ class Solution extends AbstractSolution {
 
 		for (int i = 0; i < n; i++) {
 			String f = String.format("%" + n + "s", "#".repeat(i + 1));
-			System.out.printf("%s%n", f);
+//			System.out.printf("%s%n", f);
 			staircase[i] = f;
 		}
 
