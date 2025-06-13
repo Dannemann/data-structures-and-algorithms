@@ -13,6 +13,8 @@ class Solution extends AbstractSolution {
 			if (grade > 37 && (mod == 3 || mod == 4))
 				grade += 5 - mod;
 
+			System.out.println(grade);
+
 			return grade;
 		}).collect(Collectors.toList());
 	}
