@@ -15,7 +15,8 @@ public class SolutionTest {
 		);
 
 		for (AbstractSolution s : solutions) {
-			assertEquals("", s.kangaroo(1, 1, 2, 3));
+			assertEquals("YES", s.kangaroo(0, 3, 4, 2));
+			assertEquals("NO", s.kangaroo(0, 2, 5, 3));
 		}
 	}
 
